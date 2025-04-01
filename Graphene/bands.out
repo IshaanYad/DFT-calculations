@@ -1,0 +1,142 @@
+
+     Program BANDS v.7.3.1 starts on  7Dec2024 at 23: 4:10 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     22387 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./out/aiida.save/
+     file C.pbesol-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBESOL
+                           (   1   4  10   8   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        2149    1069    313                81561    28841    4365
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000009
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.5000 0.2887 0.0000   x coordinate   0.5774
+     high-symmetry point:  0.3333 0.5773 0.0000   x coordinate   0.9107
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.5773
+
+     Plottable bands (eV) written to file bands.dat.gnu
+     Bands written to file bands.dat
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.00000,   0.00000  )
+
+     point group C_1 (1)    
+     there are  1 classes
+     the character table:
+
+       E    
+A      1.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -16.24659  eV     1   --> A              
+     e(  2 -  4) =    -10.93825  eV     3   -->   3 A              
+     e(  5 -  7) =     -9.98964  eV     3   -->   3 A              
+     e(  8 -  8) =     -4.32363  eV     1   --> A              
+     e(  9 - 11) =     -3.12632  eV     3   -->   3 A              
+     e( 12 - 12) =      0.29567  eV     1   --> A              
+     e( 13 - 13) =      0.29579  eV     1   --> A              
+     e( 14 - 16) =      0.96269  eV     3   -->   3 A              
+     e( 17 - 19) =      5.03410  eV     3   -->   3 A              
+     e( 20 - 20) =      6.15579  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.50000,   0.28868,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  2) =    -14.77392  eV     2   -->   2 A              
+     e(  3 -  4) =    -11.93737  eV     2   -->   2 A              
+     e(  5 -  6) =     -7.19799  eV     2   -->   2 A              
+     e(  7 -  8) =     -5.71190  eV     2   -->   2 A              
+     e(  9 - 10) =     -4.11099  eV     2   -->   2 A              
+     e( 11 - 12) =     -2.58664  eV     2   -->   2 A              
+     e( 13 - 14) =     -1.74315  eV     2   -->   2 A              
+     e( 15 - 16) =      0.58349  eV     2   -->   2 A              
+     e( 17 - 18) =      6.16942  eV     2   -->   2 A              
+     e( 19 - 20) =      8.12839  eV     2   -->   2 A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.33333,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  3) =    -14.28984  eV     3   -->   3 A              
+     e(  4 -  5) =     -9.26103  eV     2   -->   2 A              
+     e(  6 -  6) =     -7.36018  eV     1   --> A              
+     e(  7 -  9) =     -4.43559  eV     3   -->   3 A              
+     e( 10 - 12) =     -3.13440  eV     3   -->   3 A              
+     e( 13 - 15) =     -2.02318  eV     3   -->   3 A              
+     e( 16 - 17) =      3.33720  eV     2   -->   2 A              
+     e( 18 - 20) =      8.78772  eV     3   -->   3 A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.00000,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -16.24659  eV     1   --> A              
+     e(  2 -  4) =    -10.93825  eV     3   -->   3 A              
+     e(  5 -  7) =     -9.98964  eV     3   -->   3 A              
+     e(  8 -  8) =     -4.32363  eV     1   --> A              
+     e(  9 - 11) =     -3.12632  eV     3   -->   3 A              
+     e( 12 - 12) =      0.29567  eV     1   --> A              
+     e( 13 - 13) =      0.29579  eV     1   --> A              
+     e( 14 - 16) =      0.96269  eV     3   -->   3 A              
+     e( 17 - 19) =      5.03410  eV     3   -->   3 A              
+     e( 20 - 20) =      6.15579  eV     1   --> A              
+
+ **************************************************************************
+
+     BANDS        :      1.78s CPU      1.22s WALL
+
+
+   This run was terminated on:  23: 4:11   7Dec2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

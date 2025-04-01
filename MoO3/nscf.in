@@ -1,0 +1,36 @@
+&CONTROL
+  calculation = 'nscf'
+  outdir = './out'
+  prefix = 'aiida'
+  pseudo_dir = './'
+  verbosity = 'high'
+/
+&SYSTEM
+  degauss =   2.0000000000d-02
+  ecutrho =   4.0000000000d+02
+  ecutwfc =   5.0000000000d+01
+  ibrav = 0
+  nat = 4
+  nosym = .false.
+  ntyp = 2
+  occupations = 'smearing'
+  smearing = 'cold'
+/
+&ELECTRONS
+  conv_thr =   1.0000000000d-08  
+/
+ATOMIC_SPECIES
+Mo     95.96 Mo_ONCV_PBEsol-1.0.upf
+O      15.9994 O.pbesol-n-kjpaw_psl.0.1.UPF
+ATOMIC_POSITIONS crystal
+Mo           0.5750000000       0.3980000000       0.7500000000
+O            0.5260000000       0.4260000000       0.2500000000
+O            0.0660000000       0.4140000000       0.7500000000
+O            0.5100000000       0.2760000000       0.7500000000
+K_POINTS automatic
+15 10 9 0 0 0  
+CELL_PARAMETERS angstrom
+     14.8080774296       0.0000000000       0.0000000000
+      0.0000000000       3.7231739000       0.0000000000
+      0.0000000000       0.0000000000       3.9756541900
+

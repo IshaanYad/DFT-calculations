@@ -1,0 +1,33 @@
+&control
+    calculation='nscf',
+    restart_mode='from_scratch',
+    prefix='BaTiO3',
+    pseudo_dir='./',
+    outdir='./out',
+    verbosity='high',
+/
+&system
+    ibrav=6, a=3.99, c=4.02, nat=5, ntyp=3,
+    ecutwfc=18.0,
+    nbnd=60,  
+    occupations='smearing',
+    smearing='gaussian',
+    degauss=0.01,
+/
+&electrons
+    conv_thr=1.0d-8,
+    diagonalization='david',
+/
+ATOMIC_SPECIES
+Ba 137.327 Ba.pbe-mt_fhi.UPF
+Ti 47.867 Ti.pbe-mt_fhi.UPF
+O   15.999 O.pbe-mt_fhi.UPF
+ATOMIC_POSITIONS (alat)
+Ba 0.0000000000  0.0000000000  0.0000000000
+Ti 0.4999999999  0.4999999999  0.5070000290
+O  0.4999999999  0.4999999999  0.0000000000
+O  0.4999999999  0.0000000000  0.5210000277
+O  0.0000000000  0.4999999999  0.5210000277
+K_POINTS automatic
+12 12 12 1 1 1
+

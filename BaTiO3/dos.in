@@ -1,0 +1,9 @@
+&dos
+    outdir='./out'
+    prefix='BaTiO3'
+    fildos='BaTiO3.dos'
+    Emin=0.0
+    Emax=20.0
+    DeltaE=0.01
+/
+

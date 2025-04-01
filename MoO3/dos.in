@@ -1,0 +1,9 @@
+&DOS
+  outdir = './out'
+  prefix = 'aiida'
+  fildos = 'aiida.dos'
+  DeltaE = 0.01
+  Emin = -10.0
+  Emax = 5.0
+/
+

@@ -1,0 +1,6 @@
+&BANDS
+    prefix='BaTiO3',
+    outdir='./out',
+    filband='bands.dat'
+/
+
